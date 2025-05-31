@@ -5,7 +5,7 @@ nav {
 
 
 
-nav a{
+nav a {
     color: white;
     display: block;
     padding: 20px;
@@ -13,7 +13,7 @@ nav a{
 
 
 
-img{
+main img {
     width: 150px;
     height: auto;
     border: 1px solid black;
@@ -23,9 +23,38 @@ img{
 }
 
 
-p{
-    padding: 10px;
+p {
+    padding: 0;
 }
 
 
 
+main {
+    max-width: 840px;
+}
+
+
+
+aside {
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    /* ⓵ */
+    padding: 1rem;
+    background-color: #eeeeeed2;
+    color: #333;
+    text-align: center;
+}
+
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+
+footer {
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
+}
