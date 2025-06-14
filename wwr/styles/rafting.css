@@ -12,6 +12,51 @@
 header{
     background-color: var(--primary-color);
     color: var(--accent2-color);
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    align-items:center;
+    border-bottom: 1px solid #ccc;
+    max-width: 1000px;
+}
+
+
+.logo img{
+    margin: 0 0.25rem 0 1rem;
+    width: 100px;
+    height: auto;
+}
+
+.navigation{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.2rem;
+}
+
+
+.navigation li{
+    flex: 1 1 auto;
+}
+
+
+.navigation a{
+    display: block;
+    color: #fff;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-align: center;
+    
+
+}
+
+.navigation a:hover{
+    color: var(--accent2-color);
+    font-weight: 700;
+    text-decoration: underline;
 }
 
 
@@ -50,6 +95,7 @@ nav, p, section, article{
 
 .socialmedia a{
     text-decoration: none;
+   
 }
 
 
@@ -102,4 +148,80 @@ article{
     width: 125px;
     border: var(--accent1-color);
     margin: 22px;
+}
+
+
+
+main section h2{
+    text-align: center;
+    margin-top: 10px;
+  /* margin-bottom: 2rem; */
+}
+
+.history-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+.column{
+    flex: 1;
+}
+
+.left-text .right-text{
+    font-size: 10px;
+    line-height: 1.8;
+    text-align: justify;
+
+}
+
+
+.centered-picture img{
+    max-width: 100%;
+    height: auto;
+    max-height: 140px;
+    object-fit: contain;
+
+}
+
+.grid-style{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 5rem;
+    padding: 20px;
+    align-items: center;
+    justify-items: center;
+
+}
+
+.grid-style figure img{
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: var(--accent1-color);
+    color: #fff;
+    position: relative;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }

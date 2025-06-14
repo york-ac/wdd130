@@ -20,14 +20,17 @@
 <body>
 
 
-    <header>
+    <header class="logo">
         <img src="./images/wwr-logo.png" alt="Rafting Company Logo">
 
         <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About Us</a>
-            <a href="trips.html">Trips</a>
-            <a href="contact.html">Contact Us</a>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+
         </nav>
     </header>
 
@@ -37,7 +40,7 @@
             <img src="./images/hero.jpg" alt="Hero Image">
             <h1>Mayu Puriy Rafting Company</h1>
             <article>
-               <h2>Mayu Puriy welcomes you with open arms</h2>
+                <h2>Mayu Puriy welcomes you with open arms</h2>
                 <img src="./images/satisfied-client.webp" alt="A satisfied Client">
                 <p>Our mission is offer a top-quality service for people who wants to go through an adventure along the
                     rivers. We have well-trained staff that trains beginners and enthusiasts of all the ages about
@@ -49,18 +52,57 @@
 
         <section>
             <h2>History</h2>
-            <p>Our company was born in 2012 due to the brilliant ideas of my friends and me. </p>
+
+            <div class="history-section">
+                <div class="column left-text">
+                    <p>Our company was born in 2012 due to the brilliant ideas of my friends and me. Lorem ipsum dolor
+                        sit amet consectetur adipisicing elit. Ipsa magnam temporibus veniam ex non iusto tempora! Illo
+                        nobis debitis odio, ab nostrum tenetur nisi repellendus expedita eos ea nemo. Molestias? </p>
+                </div>
+
+                <div class="column centered-picture">
+                    <img src="./images/rafting-history.webp" alt="Mayu Puriy Rafting History">
+                </div>
+
+                <div class="column right-text">
+                    <p>We started from scratch working on a basic project on the Andes. Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Modi debitis numquam amet cumque ipsum quisquam quis nesciunt,
+                        laudantium quo ad? Magni, est quibusdam? Omnis molestias, magnam ipsa nam autem consectetur.
+                    </p>
+                </div>
+
+            </div>
+
 
         </section>
 
 
         <section>
             <h2>Adventure Awaits You!</h2>
-            <img src="./images/first-adventure.webp" alt="First Adventure">
-            <img src="./images/second-adventure.webp" alt="Second Adventure">
-            <img src="./images/third-adventure.webp" alt="Third Adventure">
-            <img src="./images/fourth-adventure.webp" alt="Fourth Adventure">
-            <img src="./images/fifth-adventure.webp" alt="Fifth Adventure">
+
+            <div class="grid-style">
+                <figure>
+                    <img src="./images/first-adventure.webp" alt="First Adventure">
+                    <figcaption>Your first Adventure</figcaption>
+                </figure>
+                <figure>
+                    <img src="./images/second-adventure.webp" alt="Second Adventure">
+                    <figcaption>Your second Adventure</figcaption>
+                </figure>
+                <figure>
+                    <img src="./images/third-adventure.webp" alt="Third Adventure">
+                    <figcaption>Your third Adventure</figcaption>
+                </figure>
+                <figure>
+                    <img src="./images/fourth-adventure.webp" alt="Fourth Adventure">
+                    <figcaption>Your fourth Adventure</figcaption>
+                </figure>
+                <figure>
+                    <img src="./images/fifth-adventure.webp" alt="Fifth Adventure">
+                    <figcaption>Your Fifth Adventure</figcaption>
+                </figure>
+            </div>
+
 
 
         </section>
@@ -68,9 +110,9 @@
 
     </main>
 
-    <footer>
+    <footer class="bottom">
 
-        <p>&copy; 2025 &#8482; Mayu Puriy Company &#10070; York Antayhua Cortez &#10070; Lima, Peru</p>
+        <p class="text">&copy; 2025 &#8482; Mayu Puriy Company &#10070; York Antayhua Cortez &#10070; Lima, Peru</p>
 
 
         <nav class="socialmedia">
